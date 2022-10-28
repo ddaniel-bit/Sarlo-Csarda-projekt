@@ -84,7 +84,19 @@
         </div>
         <div class="col-md-6 kepdiv">
           <form action="">
-            *form*
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email-cím:</label>
+              <input type="email" class="form-control kapcsolat_elem" id="email" placeholder="pl. valaki@sarlocsarda.hu" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Tárgy:</label>
+              <input type="text" class="form-control kapcsolat_elem" id="targy" placeholder="pl. Nyitvatartással kapcsolatos kérdés" name="targy">
+            </div>
+            <div class="mb-3">
+              <label for="uezenet" class="form-label">Üzenet:</label>
+              <textarea class="form-control" id="uzenet" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="kuldes">Küldés</button>
           </form>
         </div>
       </div>

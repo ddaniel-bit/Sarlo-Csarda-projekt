@@ -171,3 +171,38 @@ footer a:hover {
     height: 50px;
     margin-bottom: 10px;
 }
+.helykoz{
+    margin:10px;
+}
+
+.kepek {
+    width: 100%;
+    height: 100%;
+}
+#email, #targy, #uzenet{
+    background-color: transparent;
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    color: white;
+    border-radius: 0px;
+}
+#kuldes {
+    background-color: transparent;
+    color: rgb(193, 193, 193);
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    transition: 00.2s;
+    min-width: 100px;
+    border-radius: 0px;
+}
+#kuldes:hover {
+    background-color: rgb(220, 53, 69);
+    border: 2px solid rgb(220, 53, 69);
+    color: white;
+}
+#etlap_valaszto a{
+    color: rgb(193, 193, 193);
+    font-size: 140%;
+}
+#etlap_valaszto li {
+    margin: 0px 10px 0px 0px;
+
+}
