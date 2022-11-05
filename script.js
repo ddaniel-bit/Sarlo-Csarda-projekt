@@ -144,7 +144,7 @@ function f5() {
     }
 }
 function f6() {
-    myDivObj = document.getElementById("f5")
+    myDivObj = document.getElementById("f6")
     if (window.getComputedStyle(myDivObj).backgroundColor == "rgba(0, 0, 0, 0)") {
         document.getElementById("f1").style.backgroundColor = "transparent";
         document.getElementById("f2").style.backgroundColor = "transparent";
@@ -154,7 +154,7 @@ function f6() {
         document.getElementById("f6").style.backgroundColor = "rgba(0, 130, 0, 0.4)";
         document.getElementById("foeteletel").style.backgroundColor = "rgba(193, 193, 193, 0.2)";
     } else {
-        document.getElementById("f5").style.backgroundColor = "transparent";
+        document.getElementById("f6").style.backgroundColor = "transparent";
         document.getElementById("foeteletel").style.backgroundColor = "transparent";
     }
 }
