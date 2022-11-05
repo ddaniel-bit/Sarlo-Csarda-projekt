@@ -147,18 +147,22 @@ li[class="nav-item active text-muted"]:hover {
     background-color: rgb(97, 255, 182);
     color: black;
 }
+
 footer p {
     text-align: center;
     margin: 0px;
 }
+
 footer a {
     color: rgb(133, 133, 133);
     text-decoration: none;
 }
+
 footer a:hover {
     text-decoration: underline;
     color: rgba(133, 133, 133);
 }
+
 #motto {
     text-align: center;
     margin-top: 0px;
@@ -166,25 +170,31 @@ footer a:hover {
     margin-bottom: 20px;
     font-size: 110%;
 }
+
 .ikon {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
 }
-.helykoz{
-    margin:10px;
+
+.helykoz {
+    margin: 10px;
 }
 
 .kepek {
     width: 100%;
     height: 100%;
 }
-#email, #targy, #uzenet{
+
+#email,
+#targy,
+#uzenet {
     background-color: transparent;
     border: 2px solid rgba(193, 193, 193, 0.5);
     color: white;
     border-radius: 0px;
 }
+
 #kuldes {
     background-color: transparent;
     color: rgb(193, 193, 193);
@@ -193,19 +203,87 @@ footer a:hover {
     min-width: 100px;
     border-radius: 0px;
 }
+
 #kuldes:hover {
     background-color: rgb(220, 53, 69);
     border: 2px solid rgb(220, 53, 69);
     color: white;
 }
-#etlap_valaszto a{
+
+#etlap_valaszto a {
     color: rgb(193, 193, 193);
     font-size: 140%;
 }
+
 #etlap_valaszto li {
     margin: 0px 10px 0px 0px;
 
 }
-#etlap_valaszto a:hover{
+
+#etlap_valaszto a:hover {
+    color: white;
+}
+
+#menudiv table {
+    margin: 0px auto 0px auto;
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    table-layout:fixed;
+    width:80%;
+}
+
+.etelekdiv {
+    overflow-x: auto;
+    display: flex;
+}
+
+.eteltipus {
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    width: 100px;
+}
+
+.eteltipusikon {
+    width: 40px;
+}
+
+.etel {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 120px;
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+    margin: 2px;
+    transition: 0.2s;
+}
+
+.etel img {
+    height: 70px;
+    border-radius: 20px;
+}
+.ar {
+    background-color: transparent;
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 3px;
+    
+}
+.etel:hover {
+    background-color: rgba(193, 193, 193, 0.5);
+}
+#megsem {
+    margin-top: 10px;
+    background-color: transparent;
+    color: rgb(193, 193, 193);
+    border: 2px solid rgba(193, 193, 193, 0.5);
+    transition: 00.2s;
+    min-width: 100px;
+    border-radius: 0px;
+}
+
+#megsem:hover {
+    background-color: rgb(220, 53, 69);
+    border: 2px solid rgb(220, 53, 69);
     color: white;
 }
