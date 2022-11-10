@@ -248,4 +248,6 @@ function torles() {
     document.getElementById("d4").style.backgroundColor = "transparent";
     document.getElementById("d5").style.backgroundColor = "transparent";
     document.getElementById("desszertetel").style.backgroundColor = "transparent";
+
+    document.getElementById("email").value = "";
 }
