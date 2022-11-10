@@ -188,7 +188,8 @@ footer a:hover {
 
 #email,
 #targy,
-#uzenet {
+#uzenet,
+#email_2 {
     background-color: transparent;
     border: 2px solid rgba(193, 193, 193, 0.5);
     color: white;
@@ -308,5 +309,14 @@ footer a:hover {
 }
 .formas{
     width: 80%;
-    margin: 10px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+.formas input {
+    margin: 10px 0px 10px 0px;
+}
+#email_2 {
+    max-width: 400px;
+}
+.napimenudiv p {
+    margin: 10px 0px 10px 0px;
 }

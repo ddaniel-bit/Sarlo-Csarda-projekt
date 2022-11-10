@@ -248,6 +248,32 @@ function torles() {
     document.getElementById("d4").style.backgroundColor = "transparent";
     document.getElementById("d5").style.backgroundColor = "transparent";
     document.getElementById("desszertetel").style.backgroundColor = "transparent";
+}
+function rendel() {
 
-    document.getElementById("email").value = "";
+    if (document.getElementById("email_2").value == "") {
+        alert("A rendeléshez add meg az email címed!");
+    } else {
+        document.getElementById("l1").style.backgroundColor = "transparent";
+        document.getElementById("l2").style.backgroundColor = "transparent";
+        document.getElementById("l3").style.backgroundColor = "transparent";
+        document.getElementById("l4").style.backgroundColor = "transparent";
+        document.getElementById("l5").style.backgroundColor = "transparent";
+        document.getElementById("levesetel").style.backgroundColor = "transparent";
+        document.getElementById("f1").style.backgroundColor = "transparent";
+        document.getElementById("f2").style.backgroundColor = "transparent";
+        document.getElementById("f3").style.backgroundColor = "transparent";
+        document.getElementById("f4").style.backgroundColor = "transparent";
+        document.getElementById("f5").style.backgroundColor = "transparent";
+        document.getElementById("f6").style.backgroundColor = "transparent";
+        document.getElementById("foeteletel").style.backgroundColor = "transparent";
+        document.getElementById("d1").style.backgroundColor = "transparent";
+        document.getElementById("d2").style.backgroundColor = "transparent";
+        document.getElementById("d3").style.backgroundColor = "transparent";
+        document.getElementById("d4").style.backgroundColor = "transparent";
+        document.getElementById("d5").style.backgroundColor = "transparent";
+        document.getElementById("desszertetel").style.backgroundColor = "transparent";
+        alert("Köszönjük a rendelést! A visszaigazoló emailt elküldtük a "+document.getElementById("email_2").value+" címre.");
+        document.getElementById("email_2").value = "";
+    }
 }
